@@ -1,6 +1,8 @@
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from django.urls.base import reverse_lazy
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
@@ -27,10 +29,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
 
-    #Third party apps
+    # Third party apps
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+
+    # My apps
+    'panel',
+    'profiles',
 ]
 
 MIDDLEWARE = [
@@ -125,8 +131,19 @@ AUTHENTICATION_BACKENDS = (
     'allauth.account.auth_backends.AuthenticationBackend',
 )
 
+AUTH_USER_MODEL = 'panel.CUser'
+
 
 # AllAuth settings
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
-ACCOUNT_EMAIL_REQUIRED=True
+ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_USER_MODEL_USERNAME_FIELD = None
+LOGIN_REDIRECT_URL = reverse_lazy('profile')
+
+
+# CUser
+CUSER_SETTINGS = {
+    'app_verbose_name': "Custom User",
+    'register_proxy_auth_group_model': False,
+}
