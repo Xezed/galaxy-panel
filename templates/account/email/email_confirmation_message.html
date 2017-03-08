@@ -1,0 +1,28 @@
+{% load account %}{% user_display user as user_display %}{% load i18n %}{% autoescape off %}{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}
+    <div style="background-color:#edeff2;color:#393939;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:18px;margin:0;padding:0;width:100%;" bgcolor="#edeff2" width="100%">
+        <div style="margin:0 auto;width:760px;" width="760">
+            <div style="padding:35px 0;">
+                <img alt="логотип GalaxyData" style="display:block;float:left;margin-top:-17px;" src="https://galaxydata.ru/wp-content/uploads/2015/09/galaxydata_cloud_04.png"><a href="mailto:info@galaxydata.ru" style="color:#5a9fe0;display:block;float:right;text-decoration:none;"></a>
+            </div>
+            <div style="background-color:#FFF;padding:35px;" bgcolor="#FFF">
+                <h1 style="color:#030303;font-size:26px;line-height:26px;margin:0;text-align:center;" align="center">Подтверждение регистрации</h1>
+
+                <div style="font-size:14px;line-height:18px;margin:20px 0;">
+                    Поздравляем с успешной регистрацией в качестве клиента {{ site_name }}.<br>
+                    Для активации аккаунта перейдите, пожалуйста, по ссылке:
+                </div>
+
+                <div style="margin:40px 0;">
+                    Ссылка активации:
+                    <a href="{{ activate_url }}" style="color:#5a9fe0;padding:15px 0 15px 15px;text-decoration:underline;width:465px;" width="465">
+                        {{ activate_url }}
+                    </a>
+                </div>
+            </div>
+
+            <div style="font-size:13px;margin:20px 0;">Если вы не проходили регистрацию, то, пожалуйста, просто проигнорируйте это письмо.</div>
+            </a>
+        </div>
+    </div>
+    </div>
+{% endblocktrans %}{% endautoescape %}
