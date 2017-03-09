@@ -1,0 +1,13 @@
+#customer-agreement{
+    font-size: 1.22rem;
+}
+
+#login-glyphicon{
+    margin-top: 0.1rem;
+    margin-right: 0.3rem;
+    font-size: 1.7rem;
+}
+
+#registration-button:hover, #registration-button:active, #registration-button {
+    background-color: #7433a2;
+}
