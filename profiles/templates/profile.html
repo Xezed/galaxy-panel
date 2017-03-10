@@ -1,10 +1,279 @@
+{% load staticfiles %}
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-{{ form.as_p }}
-</body>
-</html>
+<!-- saved from url=(0032)https://panel.netangels.ru/edit/ -->
+<html xmlns:ng="http://angularjs.org" id="ng-app" ng-app="netangelsApp" class="ng-scope mdl-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}</style>
+    <title>Редактирование учетных данных</title>
+
+    <meta name="viewport" content="width=960">
+
+    <link rel="stylesheet" href="{% static 'css/profiles/403d5b3bf04b.css' %}" type="text/css">
+
+
+    <link rel="stylesheet" href="{% static 'css/profiles/7c8fd7f92fb2.css' %}" type="text/css">
+
+
+    <link rel="stylesheet" href="{% static 'css/profiles/950924d0de95.css' %}" type="text/css">
+
+    <script type="text/javascript" async="" src="{% static 'js/profiles/watch.js' %}"></script><script type="text/javascript" src="{% static 'js/profiles/69f061b754d4.js' %}"></script>
+
+
+
+
+    <script type="text/javascript" src="{% static 'js/profiles/c67c3f75855c.js' %}"></script>
+
+    <link rel="shortcut icon" href="https://panel.netangels.ru/static/favicon.ico">
+    <link rel="apple-touch-icon" href="https://panel.netangels.ru/static/devices/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://panel.netangels.ru/static/devices/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://panel.netangels.ru/static/devices/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://panel.netangels.ru/static/devices/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://panel.netangels.ru/static/devices/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://panel.netangels.ru/static/devices/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://panel.netangels.ru/static/devices/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://panel.netangels.ru/static/devices/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://panel.netangels.ru/static/devices/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://panel.netangels.ru/static/devices/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://panel.netangels.ru/static/devices/android-chrome-192x192.png" sizes="192x192">
+
+
+    <script type="text/javascript">
+        var NETANGELS_MENU = [
+                    {
+                        "active": false,
+                        "children": [],
+                        "href": "/",
+                        "mark": "dashboard",
+                        "name": "Рабочий стол"
+                    },
+                    {
+                        "active": false,
+                        "children": [
+                            {
+                                "active": false,
+                                "children": [],
+                                "href": "/redirectors/",
+                                "mark": "",
+                                "name": "Редиректоры"
+                            },
+                            {
+                                "active": false,
+                                "children": [],
+                                "href": "/yandexmail/",
+                                "mark": "",
+                                "name": "Яндекс.Почта"
+                            }
+                        ],
+                        "href": null,
+                        "mark": "other",
+                        "name": "Сервисы"
+                    },
+                    {
+                        "active": false,
+                        "children": [],
+                        "href": "/cloud/vm/",
+                        "mark": "cloudVDS",
+                        "name": "Обл. VDS"
+                    },
+                    {
+                        "active": false,
+                        "children": [],
+                        "href": "/orders/",
+                        "mark": "services",
+                        "name": "Услуги"
+                    }
+                ],
+                NETANGELS_HEADER_MENU = [
+                    {
+                        "active": false,
+                        "children": [
+                            {
+                                "active": false,
+                                "children": [],
+                                "href": "/promo/",
+                                "mark": "child_coupons",
+                                "name": "Промо-коды"
+                            }
+                        ],
+                        "href": null,
+                        "mark": "finance",
+                        "name": "Финансовая информация"
+                    },
+                    {
+                        "active": true,
+                        "children": [
+                            {
+                                "active": false,
+                                "children": [],
+                                "href": "/requests/",
+                                "mark": "",
+                                "name": "Заявки"
+                            },
+                            {
+                                "active": true,
+                                "children": [],
+                                "href": "/edit/",
+                                "mark": "",
+                                "name": "Учетные данные"
+                            },
+                            {
+                                "active": false,
+                                "children": [],
+                                "href": "/logs/",
+                                "mark": "",
+                                "name": "Логи панели"
+                            },
+                            {
+                                "active": false,
+                                "children": [],
+                                "href": "/access_setting/",
+                                "mark": "",
+                                "name": "Доступ"
+                            },
+                            {
+                                "active": false,
+                                "children": [],
+                                "href": "/api_keys/",
+                                "mark": "",
+                                "name": "Ключ API"
+                            },
+                            {
+                                "active": false,
+                                "children": [],
+                                "href": "/auth/logout/",
+                                "mark": "",
+                                "name": "Выход"
+                            }
+                        ],
+                        "href": null,
+                        "mark": "account",
+                        "name": "Аккаунт"
+                    }
+                ];
+    </script>
+
+
+    <script type="text/javascript">
+        var WS_CONFIG = {
+            'url': "https://ws.netangels.ru",
+            'tokenUrl': "/ws/token/",
+            'signPrivateChannelUrl': "/ws/channels/sign/"
+        };
+    </script>
+
+
+
+
+    <script type="text/javascript">
+        $(function () {
+
+
+
+        });
+    </script>
+
+    <style type="text/css">/* This is not a zero-length file! */</style><style type="text/css">/* This is not a zero-length file! */</style></head>
+
+<body><div class="bodyContent"><input type="hidden" name="csrfmiddlewaretoken" value="LbJrV8IXFsikW3mdUjGAu2Cba8O3zGyn"><!--[if lte IE 8]><p class="browsehappy">
+        Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a target="_blank" href="http://browsehappy.com/"><b>обновите ваш браузер</b></a>, чтобы использовать все возможности панели.
+      </p><![endif]--><div class="messageList ng-scope" ng-controller="MessageController" ng-class="{np__active: messages.length &gt; 0}"><!-- ngRepeat: item in messages --></div><div ng-controller="UserChangeWatchController" class="ng-scope"></div><div class="np__headerAndMenu ng-scope" ng-controller="np__menuController" ng-class="{np__openMobileMenu: isShowLeftMenu}"><div class="np__leftMenu" outside-click="cancelMenu()" ng-class="{np__active: isShowLeftMenu,
+                      np__openSubmenu: currentMenuItem.children.length &gt; 0}"><a href="https://panel.netangels.ru/" class="np__logo np__link"></a><div class="np__backStep ng-hide" ng-show="currentMenuItem.children.length &gt; 0 &amp;&amp; isShowLeftMenu" ng-click="backStep()">Меню</div><div class="np__mobileMenuText ng-binding ng-hide" ng-bind="mobileMenuText()" ng-show="currentMenuItem.children.length &gt; 0 &amp;&amp; isShowLeftMenu"></div><span class="np__logo np__toggle ng-hide" ng-show="currentMenuItem.children.length &gt; 0 &amp;&amp; isShowLeftMenu" ng-click="isShowLeftMenu = !isShowLeftMenu"></span><div class="clear"></div><div class="np__mainMenuDrop np__secondMenu slideThisContent ps-container ng-hide" ng-show="currentMenuItem.children.length &gt; 0" ng-class="{np__active: currentMenuItem.children.length &gt; 0}" ng-style="{height: subMenuHeight()}"><!-- ngRepeat: subItem in currentMenuItem.children --><div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px; width: 240px; display: none;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px; height: 0px; display: inherit;"><div class="ps-scrollbar-y" style="top: 0px; height: 0px;"></div></div></div><div class="np__mainMenu mainMenuScroll slideThisContent ps-container" ng-style="{height: menuHeight}" style="height: 844px;"><!-- ngRepeat: item in menu --><div once="" class="np__mainMenuItem ng-scope" ng-repeat="item in menu" once-attr-name="&#39;np__&#39; + item.mark" once-attr-data-title="item.name" once-attr-title="item.title" ng-class="{np__active: item === currentMenuItem}" ng-click="renderSubmenu($event, item)" name="np__dashboard" datatitle="Рабочий стол"><div once-text="item.name">Рабочий стол</div></div><!-- end ngRepeat: item in menu --><div once="" class="np__mainMenuItem ng-scope" ng-repeat="item in menu" once-attr-name="&#39;np__&#39; + item.mark" once-attr-data-title="item.name" once-attr-title="item.title" ng-class="{np__active: item === currentMenuItem}" ng-click="renderSubmenu($event, item)" name="np__other" datatitle="Сервисы"><div once-text="item.name">Сервисы</div></div><!-- end ngRepeat: item in menu --><div once="" class="np__mainMenuItem ng-scope" ng-repeat="item in menu" once-attr-name="&#39;np__&#39; + item.mark" once-attr-data-title="item.name" once-attr-title="item.title" ng-class="{np__active: item === currentMenuItem}" ng-click="renderSubmenu($event, item)" name="np__cloudVDS" datatitle="Обл. VDS"><div once-text="item.name">Обл. VDS</div></div><!-- end ngRepeat: item in menu --><div once="" class="np__mainMenuItem ng-scope" ng-repeat="item in menu" once-attr-name="&#39;np__&#39; + item.mark" once-attr-data-title="item.name" once-attr-title="item.title" ng-class="{np__active: item === currentMenuItem}" ng-click="renderSubmenu($event, item)" name="np__services" datatitle="Услуги"><div once-text="item.name">Услуги</div></div><!-- end ngRepeat: item in menu --><div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px; width: 97px; display: none;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px; height: 0px; display: inherit;"><div class="ps-scrollbar-y" style="top: 0px; height: 0px;"></div></div></div></div><div class="np__header ng-scope" ng-controller="NetangelsHeader"><!-- ngIf: hasBreadcrumbs() --><div class="np__headerRight" outside-click="cancelHeaderMenu()"><!-- ngRepeat: itemHeader in headerMenu --><!-- ngInclude: getHeaderMenu(itemHeader.mark) --><div class="np__floatLeft np__class_finance" ng-repeat="itemHeader in headerMenu" ng-include="getHeaderMenu(itemHeader.mark)"><div class="np__iconWrapper np__finance np__cursorDefault"><div class="np__financeIcon"></div><div class="np__finance"><div class="np__financeStr">
+
+
+    0.00
+
+</div></div><div class="np__clear"></div><div ng-show="showMenu == itemHeader.mark" class="np__whiteDrop financeDrop ng-hide"><!-- ngRepeat: child in itemHeader.children --><div ng-repeat="child in itemHeader.children" class="ng-scope"><a href="https://panel.netangels.ru/promo/" class="dropListItem ng-binding">Промо-коды</a><div class="np__clear"></div></div><!-- end ngRepeat: child in itemHeader.children --></div></div></div><!-- end ngRepeat: itemHeader in headerMenu --><!-- ngInclude: getHeaderMenu(itemHeader.mark) --><div class="np__floatLeft np__class_account" ng-repeat="itemHeader in headerMenu" ng-include="getHeaderMenu(itemHeader.mark)"><div class="np__iconWrapper np__account" ng-click="toggleHeaderMenu(itemHeader.mark)" ng-class="{active: showMenu == itemHeader.mark}"><div class="np_headerIcon np__account fa-user">
+
+    u62102
+</div><div ng-show="showMenu == itemHeader.mark" class="np__whiteDrop accountDrop ng-hide"><!-- ngRepeat: child in itemHeader.children --><a href="https://panel.netangels.ru/requests/" ng-repeat="child in itemHeader.children" class="dropListItem ng-scope ng-binding">
+    Заявки
+</a><!-- end ngRepeat: child in itemHeader.children --><a href="https://panel.netangels.ru/edit/" ng-repeat="child in itemHeader.children" class="dropListItem ng-scope ng-binding">
+    Учетные данные
+</a><!-- end ngRepeat: child in itemHeader.children --><a href="https://panel.netangels.ru/logs/" ng-repeat="child in itemHeader.children" class="dropListItem ng-scope ng-binding">
+    Логи панели
+</a><!-- end ngRepeat: child in itemHeader.children --><a href="https://panel.netangels.ru/access_setting/" ng-repeat="child in itemHeader.children" class="dropListItem ng-scope ng-binding">
+    Доступ
+</a><!-- end ngRepeat: child in itemHeader.children --><a href="https://panel.netangels.ru/api_keys/" ng-repeat="child in itemHeader.children" class="dropListItem ng-scope ng-binding">
+    Ключ API
+</a><!-- end ngRepeat: child in itemHeader.children --><a href="https://panel.netangels.ru/auth/logout/" ng-repeat="child in itemHeader.children" class="dropListItem ng-scope ng-binding">
+    Выход
+</a><!-- end ngRepeat: child in itemHeader.children --></div></div></div><!-- end ngRepeat: itemHeader in headerMenu --><div class="np__floatLeft np__class_support"><a href="https://panel.netangels.ru/requests/new/other/" class="np__iconWrapper np__support"><span class="np_headerIcon np__support fa-life-ring"></span></a></div><div class="np__clear"></div></div></div></div><div class="mainContent np__mainContent"><div class="incorrectDetails"><div>
+
+    Для того, чтобы полноценно воспользоваться тестовым периодом по всем заказанным услугам,
+    вам необходимо заполнить реквизиты в разделе <a href="https://panel.netangels.ru/edit/">"Учетные данные"</a>.
+    <br>
+    Если вы не укажете реквизиты в течение 3х дней с даты регистрации,
+    <b>10 марта 2017 г.</b>
+    все заказанные вами услуги будут отключены, а аккаунт заблокирован.
+
+</div></div><div class="subMainContent"><span class="nav_cep"><a href="https://panel.netangels.ru/">Рабочий стол (u62102)</a><span>Редактирование учетных данных</span></span><div class="clear"></div><h2>Редактирование реквизитов</h2><form action="https://panel.netangels.ru/edit/" netangels-form="" redirect-url="." class="ng-scope ng-pristine ng-valid"><div class="errors ng-scope ng-binding ng-hide" ng-show="showError(&quot;__all__&quot;)" ng-bind-html="getError(&quot;__all__&quot;)"></div><input type="hidden" name="csrfmiddlewaretoken" value="LbJrV8IXFsikW3mdUjGAu2Cba8O3zGyn" class="ng-scope"><div class="field required ng-scope"><div class="label"><label for="id_user_type">
+    Тип пользователя
+    :
+
+</label></div><div class="input"><select name="user_type" id="id_user_type" style="display: none;"><option value="prs">Частное лицо</option><option value="org">Юридическое лицо</option><option value="ip">Индивидуальный предприниматель</option></select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 340px;" title="" id="id_user_type_chosen"><a class="chosen-single" tabindex="-1"><span>Частное лицо</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off" readonly=""></div><ul class="chosen-results"><li class="active-result result-selected" data-option-array-index="0">Частное лицо</li><li class="active-result" data-option-array-index="1">Юридическое лицо</li><li class="active-result" data-option-array-index="2">Индивидуальный предприниматель</li></ul></div></div><span class="errors ng-binding ng-hide" ng-show="showError(&quot;user_type&quot;)" ng-bind-html="getError(&quot;user_type&quot;)"></span></div></div><button type="submit" class="niceButton yellowButton ng-scope" ng-disabled="isActionProgress" ng-class="{isLoading: isLoading}"><span>Продолжить</span></button></form></div></div><div class="np__footer"><div class="np__footerWrapper"><div class="np__sm"><a target="_blank" href="https://vk.com/netangels" class="np_vk"></a><a target="_blank" href="https://www.facebook.com/NetAngels.ru" class="np_fb"></a><a target="_blank" href="https://twitter.com/NetAngelsRU" class="np_tw"></a><div class="clear"></div></div><a target="_blank" href="https://www.netangels.ru/" class="np__borderLink site">Перейти на сайт</a><a href="https://panel.netangels.ru/requests/new/other/" class="np__borderLink stp">Техническая поддержка</a><div class="np__phoneNumber"><div>8 (800) 2000 699</div><div>Бесплатный для регионов России</div></div><div class="np__clear"></div></div></div><script type="text/ng-template" id="helpWidget"><div class="helpLink"><a target="_blank" href="http://www.netangels.ru/company/how-to-pay/" class="helpPay">Способы оплаты</a><a target="_blank" href="http://www.netangels.ru/company/news/" class="helpNews">Новости</a><a target="_blank" href="http://www.netangels.ru/services/" class="helpTariffs">Тарифы</a><a target="_blank" href="http://www.netangels.ru/services/domains/whois/" class="helpDomains">Проверка домена</a><a target="_blank" href="http://www.netangels.ru/support/" class="helpSupport">Поддержка</a><div class="clear"></div></div></script><script type="text/ng-template" id="servicesWidget"><div class="servicesList" ng-controller="OrderTableController"><div class="serviceWidgetItem"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ng-repeat="item in services | orderBy : getOrderIndex"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ng-class="{disabled: !item.is_ordered, notallowed: !item.is_allowed}"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ng-show="item.is_show_in_widgets !== false"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ng-controller="ServiceController"><div class="serviceWidgetTitle {% templatetag openvariable %} item.name {% templatetag closevariable %}">
+    {% templatetag openvariable %} item.title {% templatetag closevariable %}
+</div><div class="serviceWidgetIconWrapper"><div ng-click="activateService(); $event.stopPropagation()"
+                                                 ng-class="{active: item.is_ordered}"
+                                                 class="serviceWidgetActivate"
+                                                 ng-show="(item.is_usable && item.is_ordered) || item.is_activate"
+                                                 title="{% templatetag openvariable %}{true: 'Услуга заказана', false: 'Заказать услугу'}[item.is_ordered]{% templatetag closevariable %}"></div><a ng-show="item.support_url"
+                                                                                                                                           class="serviceWidgetSupport"
+                                                                                                                                           title="Перейти в раздел поддержки"
+                                                                                                                                           target="_blank"
+                                                                                                                                           href="{% templatetag openvariable %} item.support_url {% templatetag closevariable %}"></a><a ng-show="item.service_url"
+                                                                                                                                                                                class="serviceWidgetLink"
+                                                                                                                                                                                title="Перейти в раздел услуги"
+                                                                                                                                                                                target="_blank"
+                                                                                                                                                                                href="{% templatetag openvariable %} item.service_url {% templatetag closevariable %}"></a></div></div></div></script><script type="text/ng-template" id="accountHeaderMenu"><div class="np__iconWrapper np__{% templatetag openvariable %} itemHeader.mark {% templatetag closevariable %}"
+ng-click="toggleHeaderMenu(itemHeader.mark)"
+ng-class="{active: showMenu == itemHeader.mark}"
+
+title="<b>u62102</b>  (Включен)<br><br>
+Прогнозируемая дата отключения: <b>больше 2 недель</b>"><div class="np_headerIcon np__{% templatetag openvariable %} itemHeader.mark {% templatetag closevariable %} fa-user">
+
+    u62102
+</div><div ng-show="showMenu == itemHeader.mark"
+           class="np__whiteDrop {% templatetag openvariable %} itemHeader.mark {% templatetag closevariable %}Drop"><a href="{% templatetag openvariable %} child.href {% templatetag closevariable %}"
+                                                              ng-repeat="child in itemHeader.children"
+                                                              class="dropListItem">
+    {% templatetag openvariable %} child.name {% templatetag closevariable %}
+</a></div></div></script><script type="text/ng-template" id="financeHeaderMenu"><div
+
+    class="np__iconWrapper np__{% templatetag openvariable %} itemHeader.mark {% templatetag closevariable %} np__cursorDefault"
+    title="Пополнение баланса и просмотр финансовой информации будут доступны сразу после подтверждения
+    корректности ваших реквизитов"
+
+    ><div class="np__{% templatetag openvariable %} itemHeader.mark {% templatetag closevariable %}Icon"></div><div class="np__{% templatetag openvariable %} itemHeader.mark {% templatetag closevariable %}"><div class="np__{% templatetag openvariable %} itemHeader.mark {% templatetag closevariable %}Str">
+
+
+        0.00
+
+    </div></div><div class="np__clear"></div><div ng-show="showMenu == itemHeader.mark" class="np__whiteDrop {% templatetag openvariable %} itemHeader.mark {% templatetag closevariable %}Drop"><div ng-repeat="child in itemHeader.children"><a href="{% templatetag openvariable %} child.href {% templatetag closevariable %}" class="dropListItem">{% templatetag openvariable %} child.name {% templatetag closevariable %}</a><div class="np__clear"></div></div></div></div></script><!-- Yandex.Metrika counter --><script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter24432221 = new Ya.Metrika({id:24432221,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script><noscript>&lt;div&gt;&lt;img src="//mc.yandex.ru/watch/24432221" style="position:absolute; left:-9999px;" alt="" /&gt;&lt;/div&gt;</noscript><!-- /Yandex.Metrika counter --></div>
+
+
+</body></html>
