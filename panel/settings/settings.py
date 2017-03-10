@@ -139,6 +139,7 @@ AUTH_USER_MODEL = 'panel.CUser'
 ACCOUNT_USER_MODEL_USERNAME_FIELD = None
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 LOGIN_REDIRECT_URL = reverse_lazy('profile')
 
@@ -151,15 +152,15 @@ CUSER_SETTINGS = {
 
 
 # for dev
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-# EMAIL_HOST = os.environ['EMAIL_HOST']
-# EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
-# EMAIL_HOST_USER = os.environ['EMAIL_HOST_USER']
-# EMAIL_PORT = os.environ['EMAIL_PORT']
-# EMAIL_USE_TLS = os.environ['EMAIL_USE_TLS']
-EMAIL_HOST = 'galaxydata.ru'
-EMAIL_HOST_PASSWORD = 'xHn123e'
-EMAIL_HOST_USER = 'dev@galaxydata.ru'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = os.environ['EMAIL_HOST']
+EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
+EMAIL_HOST_USER = os.environ['EMAIL_HOST_USER']
+EMAIL_PORT = os.environ['EMAIL_PORT']
+EMAIL_USE_TLS = os.environ['EMAIL_USE_TLS']
+# EMAIL_HOST = 'galaxydata.ru'
+# EMAIL_HOST_PASSWORD = 'xHn123e'
+# EMAIL_HOST_USER = 'dev@galaxydata.ru'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
 
