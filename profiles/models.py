@@ -2,10 +2,12 @@ from django.conf import settings
 from django.contrib.contenttypes.fields import GenericRelation, GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
 from django.db import models
+from django_countries.fields import CountryField
 
 
 class Profile(models.Model):
     user = models.OneToOneField(settings.AUTH_USER_MODEL)
+    country = CountryField(default='RU')
     Personal_Entity = 'P'
     Legal_Entity = 'L'
     Entrepreneur_ = 'E'
@@ -16,7 +18,7 @@ class Profile(models.Model):
         (Entrepreneur_, 'Индивидуальный предпринематель'),
         (Government_Department, 'Государственное учреждение'),
     )
-    entity_type = models.CharField(max_length=1, choices=ENTITY_TYPES)
+    entity_type = models.CharField(max_length=1, choices=ENTITY_TYPES, default=Personal_Entity)
 
     # Content Type
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
