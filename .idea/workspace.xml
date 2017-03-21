@@ -1,16 +1,916 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b32c6876-edc6-4339-97c9-1250fe7613f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+    <list default="true" id="b32c6876-edc6-4339-97c9-1250fe7613f0" name="Default" comment="First step registration and panel templates" />
+    <list id="a66231bb-26aa-4d6f-a2b7-70cd1a508504" name="Rejected commit: Default" comment="First step registration and panel templates">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/image/images/noimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/link/images/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/link/images/hidpi/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/magicline/images/hidpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/magicline/images/icon-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/magicline/images/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/img/github-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/img/header-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/img/header-separator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/img/navigation-tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/assets/inlineall/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/assets/sample.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/font/fontello.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/font/fontello.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/images/hidpi/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/images/hidpi/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/images/hidpi/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/images/hidpi/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/images/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/images/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/images/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/colorpicker/img/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/colorpicker/img/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/colorpicker/img/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/colorpicker/img/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/colorpicker/img/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/images/filler.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/images/insert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/images/loading-background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/collection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/collection_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/copy_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/csv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/csv_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/pdf_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/print_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/psd/collection.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/psd/copy document.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/psd/file_types.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/psd/printer.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/images/xls_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/swf/copy_csv_xls.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/flat@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/futurico/futurico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/futurico/futurico@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/line@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/minimal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/minimal@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/polaris/polaris.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/polaris/polaris@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/square@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ionslider/img/sprite-skin-flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ionslider/img/sprite-skin-nice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/templates/profiles/_footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/templates/profiles/_header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/templates/profiles/_left_sidebar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/templates/profiles/_right_sidebar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/templates/profiles/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/templates/profiles/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/templates/profiles/registration-step-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/AdminLTE.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/AdminLTE.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/alt/AdminLTE-bootstrap-social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/alt/AdminLTE-bootstrap-social.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/alt/AdminLTE-fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/alt/AdminLTE-fullcalendar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/alt/AdminLTE-select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/alt/AdminLTE-select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/alt/AdminLTE-without-plugins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/alt/AdminLTE-without-plugins.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/_all-skins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/_all-skins.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-black-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-black-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-black.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-blue-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-blue-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-blue.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-green-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-green-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-green.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-purple-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-purple-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-purple.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-red-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-red-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-red.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-yellow-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-yellow-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/profiles/skins/skin-yellow.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/js/profiles/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/js/profiles/app.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/js/profiles/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/js/profiles/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/js/profiles/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/js/profiles/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/js/profiles/pages/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/js/profiles/pages/dashboard2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/bootstrap-slider/bootstrap-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/bootstrap-slider/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/chartjs/Chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/chartjs/Chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/adapters/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/build-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/ckeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/contents.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/about/dialogs/about.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/dialog/dialogDefinition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/image/dialogs/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/link/dialogs/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/link/dialogs/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/pastefromword/filter/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/scayt/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/scayt/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/scayt/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/scayt/dialogs/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/table/dialogs/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/wsc/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/css/samples.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/js/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/js/sf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/appendto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/assets/posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/assets/uilanguages/languages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/datafiltering.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/dialog/assets/my_dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/dialog/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/divreplace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/enterkey/enterkey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/htmlwriter/outputforflash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/htmlwriter/outputhtml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/inlineall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/inlinebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/inlinetextarea.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/jquery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/magicline/magicline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/readonly.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/replacebyclass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/replacebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/sample.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/sample_posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/tabindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/toolbar/toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/uicolor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/uilanguages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/wysiwygarea/fullpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/old/xhtmlstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/css/fontello.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/font/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/font/fontello.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/skins/moono/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ckeditor/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/colorpicker/bootstrap-colorpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/colorpicker/bootstrap-colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/colorpicker/bootstrap-colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/colorpicker/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/css/dataTables.autoFill.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/examples/columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/examples/complete-callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/examples/fill-both.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/examples/fill-horizontal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/examples/scrolling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/examples/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/examples/step-callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/js/dataTables.autoFill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/css/dataTables.colReorder.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/alt_insert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/col_filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/colvis.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/fixedcolumns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/fixedheader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/new_init.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/predefined.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/realtime.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/reset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/scrolling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/server_side.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/examples/state_save.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/js/dataTables.colReorder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/css/dataTables.colVis.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/css/dataTables.colVis.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/button_order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/exclude_columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/group_columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/mouseover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/new_init.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/restore.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/title_callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/two_tables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/examples/two_tables_identical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/js/dataTables.colVis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/ColVis/js/dataTables.colVis.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/col_filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/colvis.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/css_size.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/index_column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/left_right_columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/right_column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/rowspan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/server-side-processing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/size_fixed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/size_fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/examples/two_columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedHeader/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedHeader/examples/header_footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedHeader/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedHeader/examples/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedHeader/examples/top_left_right.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedHeader/examples/two_tables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedHeader/examples/zIndexes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/KeyTable/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/KeyTable/css/dataTables.keyTable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/KeyTable/examples/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/KeyTable/examples/html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/KeyTable/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/KeyTable/examples/scrolling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/KeyTable/examples/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/KeyTable/js/dataTables.keyTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/css/dataTables.responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/css/dataTables.responsive.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/child-rows/column-control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/child-rows/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/child-rows/right-column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/display-control/auto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/display-control/classes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/display-control/complexHeader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/display-control/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/display-control/init-classes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/initialisation/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/initialisation/className.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/initialisation/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/initialisation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/initialisation/new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/initialisation/option.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/styling/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/styling/compact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/styling/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/styling/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/examples/styling/scrolling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/js/dataTables.responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/js/dataTables.responsive.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/css/dataTables.scroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/css/dataTables.scroller.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/examples/api_scrolling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/examples/data/2500.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/examples/data/ssp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/examples/large_js_source.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/examples/server-side_processing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/examples/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/examples/state_saving.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/js/dataTables.scroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Scroller/js/dataTables.scroller.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/css/dataTables.tableTools.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/alter_buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/button_text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/collection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/defaults.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/jqueryui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/multi_instance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/multiple_tables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/new_init.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/pdf_message.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/plug-in.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/select_column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/select_multi.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/select_os.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/select_single.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/examples/swf_path.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/js/dataTables.tableTools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/datepicker3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.nl-BE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.rs-latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.rs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datepicker/locales/bootstrap-datepicker.zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/daterangepicker/daterangepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/daterangepicker/daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/daterangepicker/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/daterangepicker/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/fastclick/fastclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/fastclick/fastclick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.colorhelpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.colorhelpers.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.canvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.categories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.categories.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.crosshair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.crosshair.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.errorbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.errorbars.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.fillbetween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.fillbetween.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.image.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.navigate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.navigate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.pie.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.resize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.selection.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.stack.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.symbol.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.threshold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.threshold.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/flot/jquery.flot.time.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/fullcalendar/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/fullcalendar/fullcalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/fullcalendar/fullcalendar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/fullcalendar/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/fullcalendar/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/flat/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/futurico/futurico.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/icheck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/line.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/line/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/minimal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/minimal/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/polaris/polaris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/square.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/iCheck/square/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/input-mask/jquery.inputmask.date.extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/input-mask/jquery.inputmask.extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/input-mask/jquery.inputmask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/input-mask/jquery.inputmask.numeric.extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/input-mask/jquery.inputmask.phone.extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/input-mask/jquery.inputmask.regex.extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/input-mask/phone-codes/phone-be.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/input-mask/phone-codes/phone-codes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/input-mask/phone-codes/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ionslider/ion.rangeSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ionslider/ion.rangeSlider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ionslider/ion.rangeSlider.skinFlat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/ionslider/ion.rangeSlider.skinNice.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/jQuery/jquery-2.2.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/jQueryUI/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/jQueryUI/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/jvectormap/jquery-jvectormap-1.2.2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/jvectormap/jquery-jvectormap-1.2.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/jvectormap/jquery-jvectormap-usa-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/jvectormap/jquery-jvectormap-world-mill-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/knob/jquery.knob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/morris/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/morris/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/morris/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/pace/pace.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/pace/pace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/pace/pace.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/pace/pace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/sr-Cyrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/i18n/zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/select2.full.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/select2.full.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/select2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/select2/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/slimScroll/jquery.slimscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/slimScroll/jquery.slimscroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/sparkline/jquery.sparkline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/sparkline/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/timepicker/bootstrap-timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/timepicker/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/timepicker/bootstrap-timepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/timepicker/bootstrap-timepicker.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/panel/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/panel/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/profiles/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/profiles/templates/profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/css/profiles/403d5b3bf04b.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/css/profiles/7c8fd7f92fb2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/css/profiles/950924d0de95.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/js/profiles/69f061b754d4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/js/profiles/c67c3f75855c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/js/profiles/watch.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profiles/migrations/__init__.py" afterPath="$PROJECT_DIR$/staticfiles/plugins/panel/datatables/extensions/Responsive/Readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/panel/settings/settings.py" afterPath="$PROJECT_DIR$/panel/settings/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/account/signup.html" afterPath="$PROJECT_DIR$/templates/account/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/forms.py" afterPath="$PROJECT_DIR$/profiles/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/models.py" afterPath="$PROJECT_DIR$/profiles/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/urls.py" afterPath="$PROJECT_DIR$/profiles/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/views.py" afterPath="$PROJECT_DIR$/profiles/views.py" />
     </list>
     <ignored path="panel.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/panel/settings/settings.py" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +918,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/panel$manage.coverage" NAME="manage Coverage Results" MODIFIED="1489178395075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/panel$manage.coverage" NAME="manage Coverage Results" MODIFIED="1490099475947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,204 +931,13 @@
     <favorites_list name="panel" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/panel/settings/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev_settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/panel/settings/dev_settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email_confirmation_message.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/account/email/email_confirmation_message.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-              <folding>
-                <element signature="e#372#398#0#HTML" expanded="true" />
-                <element signature="e#509#533#0#HTML" expanded="true" />
-                <element signature="e#723#761#0#HTML" expanded="true" />
-                <element signature="e#767#877#0#HTML" expanded="true" />
-                <element signature="e#878#884#1#HTML" expanded="true" />
-                <element signature="e#1453#1491#0#HTML" expanded="true" />
-                <element signature="e#1492#1498#1#HTML" expanded="true" />
-                <element signature="e#2049#2117#0#HTML" expanded="true" />
-                <element signature="e#2291#2329#0#HTML" expanded="true" />
-                <element signature="e#2330#2336#1#HTML" expanded="true" />
-                <element signature="e#2609#2647#0#HTML" expanded="true" />
-                <element signature="e#2648#2654#1#HTML" expanded="true" />
-                <element signature="e#2676#2823#0#HTML" expanded="true" />
-                <element signature="e#2937#2975#0#HTML" expanded="true" />
-                <element signature="e#2976#2982#1#HTML" expanded="true" />
-                <element signature="e#3043#3081#0#HTML" expanded="true" />
-                <element signature="e#3082#3088#1#HTML" expanded="true" />
-                <element signature="e#3122#3160#0#HTML" expanded="true" />
-                <element signature="e#3161#3167#1#HTML" expanded="true" />
-                <element signature="e#3200#3238#0#HTML" expanded="true" />
-                <element signature="e#3239#3245#1#HTML" expanded="true" />
-                <element signature="e#3504#3542#0#HTML" expanded="true" />
-                <element signature="e#3543#3549#1#HTML" expanded="true" />
-                <element signature="e#3583#3621#0#HTML" expanded="true" />
-                <element signature="e#3622#3628#1#HTML" expanded="true" />
-                <element signature="e#3661#3699#0#HTML" expanded="true" />
-                <element signature="e#3700#3706#1#HTML" expanded="true" />
-                <element signature="e#3754#3792#0#HTML" expanded="true" />
-                <element signature="e#3793#3799#1#HTML" expanded="true" />
-                <element signature="e#3821#3991#0#HTML" expanded="true" />
-                <element signature="e#4099#4137#0#HTML" expanded="true" />
-                <element signature="e#4138#4144#1#HTML" expanded="true" />
-                <element signature="e#4205#4243#0#HTML" expanded="true" />
-                <element signature="e#4244#4250#1#HTML" expanded="true" />
-                <element signature="e#4284#4322#0#HTML" expanded="true" />
-                <element signature="e#4323#4329#1#HTML" expanded="true" />
-                <element signature="e#4362#4400#0#HTML" expanded="true" />
-                <element signature="e#4401#4407#1#HTML" expanded="true" />
-                <element signature="e#4672#4712#0#HTML" expanded="true" />
-                <element signature="e#4713#4719#1#HTML" expanded="true" />
-                <element signature="e#4860#4938#0#HTML" expanded="true" />
-                <element signature="e#5094#5139#0#HTML" expanded="true" />
-                <element signature="e#5169#5441#0#HTML" expanded="true" />
-                <element signature="e#5662#5702#0#HTML" expanded="true" />
-                <element signature="e#5703#5709#1#HTML" expanded="true" />
-                <element signature="e#6006#6044#0#HTML" expanded="true" />
-                <element signature="e#6045#6051#1#HTML" expanded="true" />
-                <element signature="e#6097#6135#0#HTML" expanded="true" />
-                <element signature="e#6136#6142#1#HTML" expanded="true" />
-                <element signature="e#6187#6225#0#HTML" expanded="true" />
-                <element signature="e#6226#6232#1#HTML" expanded="true" />
-                <element signature="e#6488#6526#0#HTML" expanded="true" />
-                <element signature="e#6527#6533#1#HTML" expanded="true" />
-                <element signature="e#6555#6725#0#HTML" expanded="true" />
-                <element signature="e#6847#6885#0#HTML" expanded="true" />
-                <element signature="e#6886#6892#1#HTML" expanded="true" />
-                <element signature="e#6953#6991#0#HTML" expanded="true" />
-                <element signature="e#6992#6998#1#HTML" expanded="true" />
-                <element signature="e#7032#7070#0#HTML" expanded="true" />
-                <element signature="e#7071#7077#1#HTML" expanded="true" />
-                <element signature="e#7110#7148#0#HTML" expanded="true" />
-                <element signature="e#7149#7155#1#HTML" expanded="true" />
-                <element signature="e#7530#7568#0#HTML" expanded="true" />
-                <element signature="e#7569#7575#1#HTML" expanded="true" />
-                <element signature="e#7613#7651#0#HTML" expanded="true" />
-                <element signature="e#7652#7658#1#HTML" expanded="true" />
-                <element signature="e#7695#7733#0#HTML" expanded="true" />
-                <element signature="e#7734#7740#1#HTML" expanded="true" />
-                <element signature="e#7797#7835#0#HTML" expanded="true" />
-                <element signature="e#7836#7842#1#HTML" expanded="true" />
-                <element signature="e#7868#8018#0#HTML" expanded="true" />
-                <element signature="e#8030#8079#0#HTML" expanded="true" />
-                <element signature="e#8092#8141#0#HTML" expanded="true" />
-                <element signature="e#8179#8185#0#HTML" expanded="true" />
-                <element signature="e#8187#8193#0#HTML" expanded="true" />
-                <element signature="e#8211#8217#0#HTML" expanded="true" />
-                <element signature="e#8217#8223#0#HTML" expanded="true" />
-                <element signature="e#8230#8279#0#HTML" expanded="true" />
-                <element signature="e#8292#8341#0#HTML" expanded="true" />
-                <element signature="e#8377#8383#0#HTML" expanded="true" />
-                <element signature="e#8385#8391#0#HTML" expanded="true" />
-                <element signature="e#8411#8417#0#HTML" expanded="true" />
-                <element signature="e#8417#8423#0#HTML" expanded="true" />
-                <element signature="e#8430#8479#0#HTML" expanded="true" />
-                <element signature="e#8492#8541#0#HTML" expanded="true" />
-                <element signature="e#8578#8584#0#HTML" expanded="true" />
-                <element signature="e#8585#8591#0#HTML" expanded="true" />
-                <element signature="e#8668#8706#0#HTML" expanded="true" />
-                <element signature="e#8707#8713#1#HTML" expanded="true" />
-                <element signature="e#8786#8824#0#HTML" expanded="true" />
-                <element signature="e#8825#8831#1#HTML" expanded="true" />
-                <element signature="e#8869#8907#0#HTML" expanded="true" />
-                <element signature="e#8908#8914#1#HTML" expanded="true" />
-                <element signature="e#8951#8989#0#HTML" expanded="true" />
-                <element signature="e#8990#8996#1#HTML" expanded="true" />
-                <element signature="e#9054#9092#0#HTML" expanded="true" />
-                <element signature="e#9093#9099#1#HTML" expanded="true" />
-                <element signature="e#9125#9275#0#HTML" expanded="true" />
-                <element signature="e#9421#9459#0#HTML" expanded="true" />
-                <element signature="e#9460#9466#1#HTML" expanded="true" />
-                <element signature="e#9539#9577#0#HTML" expanded="true" />
-                <element signature="e#9578#9584#1#HTML" expanded="true" />
-                <element signature="e#9622#9660#0#HTML" expanded="true" />
-                <element signature="e#9661#9667#1#HTML" expanded="true" />
-                <element signature="e#9704#9742#0#HTML" expanded="true" />
-                <element signature="e#9743#9749#1#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profiles/templates/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1256">
-              <caret line="210" column="124" selection-start-line="210" selection-start-column="119" selection-end-line="210" selection-end-column="124" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#4;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#5;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#28521#28525#0#HTML" expanded="true" />
-                <element signature="e#28528#28532#0#HTML" expanded="true" />
-                <element signature="e#28532#28536#0#HTML" expanded="true" />
-                <element signature="e#28625#28629#0#HTML" expanded="true" />
-                <element signature="e#28629#28633#0#HTML" expanded="true" />
-                <element signature="e#28637#28641#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/panel/settings/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/account/signup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding>
-                <marker date="1489178395039" expanded="true" signature="1237:1578" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/panel/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-              <folding>
-                <marker date="1489151587409" expanded="true" signature="91:228" ph="..." />
-              </folding>
+            <state relative-caret-position="46">
+              <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -239,8 +948,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -254,13 +963,9 @@
         <option value="$PROJECT_DIR$/panel/settings/prod_settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/registration/models.py" />
-        <option value="$PROJECT_DIR$/profiles/models.py" />
-        <option value="$PROJECT_DIR$/profiles/views.py" />
-        <option value="$PROJECT_DIR$/profiles/urls.py" />
         <option value="$PROJECT_DIR$/panel/models.py" />
         <option value="$PROJECT_DIR$/profiles/templates/admin/cuser/cuser/add_form.html" />
         <option value="$PROJECT_DIR$/panel/admin.py" />
-        <option value="$PROJECT_DIR$/profiles/forms.py" />
         <option value="$PROJECT_DIR$/templates/account/email/email_confirmation_message.txt" />
         <option value="$PROJECT_DIR$/templates/account/email/email_confirmation_signup_message.html" />
         <option value="$PROJECT_DIR$/panel/settings/dev_settings.py" />
@@ -275,6 +980,19 @@
         <option value="$PROJECT_DIR$/templates/account/email/email_confirmation_message.html" />
         <option value="$PROJECT_DIR$/profiles/templates/profile.html" />
         <option value="$PROJECT_DIR$/templates/account/signup.html" />
+        <option value="$PROJECT_DIR$/templates/panel/_header.html" />
+        <option value="$PROJECT_DIR$/templates/panel/_left_sidebar.html" />
+        <option value="$PROJECT_DIR$/templates/panel/_footer.html" />
+        <option value="$PROJECT_DIR$/templates/panel/_right_sidebar.html" />
+        <option value="$PROJECT_DIR$/templates/panel/base.html" />
+        <option value="$PROJECT_DIR$/templates/panel/index.html" />
+        <option value="$PROJECT_DIR$/profiles/views.py" />
+        <option value="$PROJECT_DIR$/profiles/templates/profiles/index.html" />
+        <option value="$PROJECT_DIR$/profiles/urls.py" />
+        <option value="$PROJECT_DIR$/profiles/forms.py" />
+        <option value="$PROJECT_DIR$/profiles/models.py" />
+        <option value="$PROJECT_DIR$/profiles/templates/profiles/registration-step-1.html" />
+        <option value="$PROJECT_DIR$/profiles/templates/profiles/base.html" />
         <option value="$PROJECT_DIR$/panel/settings/settings.py" />
       </list>
     </option>
@@ -316,6 +1034,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -363,11 +1082,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="staticfiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="profiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,29 +1096,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="staticfiles" />
+              <option name="myItemId" value="profiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="panel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="panel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="staticfiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -411,9 +1108,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,14 +1170,19 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/staticfiles/js/profiles" />
-      <recent name="$PROJECT_DIR$/staticfiles/css/profiles" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/profiles/templates" />
       <recent name="$PROJECT_DIR$/panel/settings" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/staticfiles/css" />
+      <recent name="$PROJECT_DIR$/staticfiles/plugins/panel" />
+      <recent name="$PROJECT_DIR$/staticfiles/js/panel" />
+      <recent name="$PROJECT_DIR$/staticfiles/css/panel" />
+      <recent name="$PROJECT_DIR$/staticfiles/js/profiles" />
     </key>
   </component>
   <component name="RunManager" selected="Python.manage">
@@ -439,8 +1190,8 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="EMAIL_PORT" value="587" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="EMAIL_PORT" value="587" />
         <env name="EMAIL_HOST_PASSWORD" value="3axyi777" />
         <env name="EMAIL_HOST_USER" value="paren.s.rayona" />
         <env name="EMAIL_HOST" value="smtp.gmail.com" />
@@ -768,32 +1519,55 @@
       <option name="project" value="LOCAL" />
       <updated>1489175569234</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Sign up one password">
+      <created>1489178455666</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1489178455666</updated>
+    </task>
+    <task id="LOCAL-00010" summary="First step registration and panel templates">
+      <created>1490114196639</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1490114196639</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="24" width="1543" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20240481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30976865" sideWeight="0.50501" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36632392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30976865" sideWeight="0.49499" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1970608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.249833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251928" sideWeight="0.49499" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299933" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36632392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -816,10 +1590,14 @@
     <MESSAGE value="Email backend" />
     <MESSAGE value="Email confirmation template" />
     <MESSAGE value="Email galaxydata settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Email galaxydata settings" />
+    <MESSAGE value="Sign up one password" />
+    <MESSAGE value="First step registration and panel templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="First step registration and panel templates" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -827,23 +1605,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/panel/dbsettings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/dbsettings.py" />
     <entry file="file://$PROJECT_DIR$/panel/settings/dev_settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,9 +1620,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -861,9 +1628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <marker date="1489151587409" expanded="true" signature="91:228" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,7 +1635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,7 +1642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1872">
           <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,38 +1663,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <marker date="1489151587409" expanded="true" signature="91:228" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28521#28525#0#HTML" expanded="true" />
-            <element signature="e#28528#28532#0#HTML" expanded="true" />
-            <element signature="e#28532#28536#0#HTML" expanded="true" />
-            <element signature="e#28625#28629#0#HTML" expanded="true" />
-            <element signature="e#28629#28633#0#HTML" expanded="true" />
-            <element signature="e#28637#28641#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profile.html" />
     <entry file="file://$PROJECT_DIR$/profiles/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -944,9 +1678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,9 +1685,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2340">
           <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -964,14 +1693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/panel/settings/prod_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1004,13 +1725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/panel/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -1018,37 +1732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/account/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,7 +1743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="803">
           <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,46 +1753,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/account/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/staticfiles/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/panel/dynamic_preferences_registry.py" />
-    <entry file="file://$PROJECT_DIR$/panel/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding>
-            <marker date="1489151587409" expanded="true" signature="91:228" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/panel/dbsettings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/dbsettings.py" />
     <entry file="file://$PROJECT_DIR$/templates/account/email/email_confirmation_signup_message.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="59" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,114 +1773,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="e#372#398#0#HTML" expanded="true" />
-            <element signature="e#509#533#0#HTML" expanded="true" />
-            <element signature="e#723#761#0#HTML" expanded="true" />
-            <element signature="e#767#877#0#HTML" expanded="true" />
-            <element signature="e#878#884#1#HTML" expanded="true" />
-            <element signature="e#1453#1491#0#HTML" expanded="true" />
-            <element signature="e#1492#1498#1#HTML" expanded="true" />
-            <element signature="e#2049#2117#0#HTML" expanded="true" />
-            <element signature="e#2291#2329#0#HTML" expanded="true" />
-            <element signature="e#2330#2336#1#HTML" expanded="true" />
-            <element signature="e#2609#2647#0#HTML" expanded="true" />
-            <element signature="e#2648#2654#1#HTML" expanded="true" />
-            <element signature="e#2676#2823#0#HTML" expanded="true" />
-            <element signature="e#2937#2975#0#HTML" expanded="true" />
-            <element signature="e#2976#2982#1#HTML" expanded="true" />
-            <element signature="e#3043#3081#0#HTML" expanded="true" />
-            <element signature="e#3082#3088#1#HTML" expanded="true" />
-            <element signature="e#3122#3160#0#HTML" expanded="true" />
-            <element signature="e#3161#3167#1#HTML" expanded="true" />
-            <element signature="e#3200#3238#0#HTML" expanded="true" />
-            <element signature="e#3239#3245#1#HTML" expanded="true" />
-            <element signature="e#3504#3542#0#HTML" expanded="true" />
-            <element signature="e#3543#3549#1#HTML" expanded="true" />
-            <element signature="e#3583#3621#0#HTML" expanded="true" />
-            <element signature="e#3622#3628#1#HTML" expanded="true" />
-            <element signature="e#3661#3699#0#HTML" expanded="true" />
-            <element signature="e#3700#3706#1#HTML" expanded="true" />
-            <element signature="e#3754#3792#0#HTML" expanded="true" />
-            <element signature="e#3793#3799#1#HTML" expanded="true" />
-            <element signature="e#3821#3991#0#HTML" expanded="true" />
-            <element signature="e#4099#4137#0#HTML" expanded="true" />
-            <element signature="e#4138#4144#1#HTML" expanded="true" />
-            <element signature="e#4205#4243#0#HTML" expanded="true" />
-            <element signature="e#4244#4250#1#HTML" expanded="true" />
-            <element signature="e#4284#4322#0#HTML" expanded="true" />
-            <element signature="e#4323#4329#1#HTML" expanded="true" />
-            <element signature="e#4362#4400#0#HTML" expanded="true" />
-            <element signature="e#4401#4407#1#HTML" expanded="true" />
-            <element signature="e#4672#4712#0#HTML" expanded="true" />
-            <element signature="e#4713#4719#1#HTML" expanded="true" />
-            <element signature="e#4860#4938#0#HTML" expanded="true" />
-            <element signature="e#5094#5139#0#HTML" expanded="true" />
-            <element signature="e#5169#5441#0#HTML" expanded="true" />
-            <element signature="e#5662#5702#0#HTML" expanded="true" />
-            <element signature="e#5703#5709#1#HTML" expanded="true" />
-            <element signature="e#6006#6044#0#HTML" expanded="true" />
-            <element signature="e#6045#6051#1#HTML" expanded="true" />
-            <element signature="e#6097#6135#0#HTML" expanded="true" />
-            <element signature="e#6136#6142#1#HTML" expanded="true" />
-            <element signature="e#6187#6225#0#HTML" expanded="true" />
-            <element signature="e#6226#6232#1#HTML" expanded="true" />
-            <element signature="e#6488#6526#0#HTML" expanded="true" />
-            <element signature="e#6527#6533#1#HTML" expanded="true" />
-            <element signature="e#6555#6725#0#HTML" expanded="true" />
-            <element signature="e#6847#6885#0#HTML" expanded="true" />
-            <element signature="e#6886#6892#1#HTML" expanded="true" />
-            <element signature="e#6953#6991#0#HTML" expanded="true" />
-            <element signature="e#6992#6998#1#HTML" expanded="true" />
-            <element signature="e#7032#7070#0#HTML" expanded="true" />
-            <element signature="e#7071#7077#1#HTML" expanded="true" />
-            <element signature="e#7110#7148#0#HTML" expanded="true" />
-            <element signature="e#7149#7155#1#HTML" expanded="true" />
-            <element signature="e#7530#7568#0#HTML" expanded="true" />
-            <element signature="e#7569#7575#1#HTML" expanded="true" />
-            <element signature="e#7613#7651#0#HTML" expanded="true" />
-            <element signature="e#7652#7658#1#HTML" expanded="true" />
-            <element signature="e#7695#7733#0#HTML" expanded="true" />
-            <element signature="e#7734#7740#1#HTML" expanded="true" />
-            <element signature="e#7797#7835#0#HTML" expanded="true" />
-            <element signature="e#7836#7842#1#HTML" expanded="true" />
-            <element signature="e#7868#8018#0#HTML" expanded="true" />
-            <element signature="e#8030#8079#0#HTML" expanded="true" />
-            <element signature="e#8092#8141#0#HTML" expanded="true" />
-            <element signature="e#8179#8185#0#HTML" expanded="true" />
-            <element signature="e#8187#8193#0#HTML" expanded="true" />
-            <element signature="e#8211#8217#0#HTML" expanded="true" />
-            <element signature="e#8217#8223#0#HTML" expanded="true" />
-            <element signature="e#8230#8279#0#HTML" expanded="true" />
-            <element signature="e#8292#8341#0#HTML" expanded="true" />
-            <element signature="e#8377#8383#0#HTML" expanded="true" />
-            <element signature="e#8385#8391#0#HTML" expanded="true" />
-            <element signature="e#8411#8417#0#HTML" expanded="true" />
-            <element signature="e#8417#8423#0#HTML" expanded="true" />
-            <element signature="e#8430#8479#0#HTML" expanded="true" />
-            <element signature="e#8492#8541#0#HTML" expanded="true" />
-            <element signature="e#8578#8584#0#HTML" expanded="true" />
-            <element signature="e#8585#8591#0#HTML" expanded="true" />
-            <element signature="e#8668#8706#0#HTML" expanded="true" />
-            <element signature="e#8707#8713#1#HTML" expanded="true" />
-            <element signature="e#8786#8824#0#HTML" expanded="true" />
-            <element signature="e#8825#8831#1#HTML" expanded="true" />
-            <element signature="e#8869#8907#0#HTML" expanded="true" />
-            <element signature="e#8908#8914#1#HTML" expanded="true" />
-            <element signature="e#8951#8989#0#HTML" expanded="true" />
-            <element signature="e#8990#8996#1#HTML" expanded="true" />
-            <element signature="e#9054#9092#0#HTML" expanded="true" />
-            <element signature="e#9093#9099#1#HTML" expanded="true" />
-            <element signature="e#9125#9275#0#HTML" expanded="true" />
-            <element signature="e#9421#9459#0#HTML" expanded="true" />
-            <element signature="e#9460#9466#1#HTML" expanded="true" />
-            <element signature="e#9539#9577#0#HTML" expanded="true" />
-            <element signature="e#9578#9584#1#HTML" expanded="true" />
-            <element signature="e#9622#9660#0#HTML" expanded="true" />
-            <element signature="e#9661#9667#1#HTML" expanded="true" />
-            <element signature="e#9704#9742#0#HTML" expanded="true" />
-            <element signature="e#9743#9749#1#HTML" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staticfiles/css/profiles/7c8fd7f92fb2.css" />
+    <entry file="file://$PROJECT_DIR$/panel/settings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/account/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profiles/_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profiles/_left_sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profiles/_footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profiles/_right_sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/account/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profile.html" />
+    <entry file="file://$PROJECT_DIR$/panel/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/contenttypes/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4518">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1229,69 +1859,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/staticfiles/css/profiles/7c8fd7f92fb2.css">
+    <entry file="file://$PROJECT_DIR$/panel/settings/prod_settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/panel/settings/__init__.py">
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profiles/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/profile.html">
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profiles/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1256">
-          <caret line="210" column="124" selection-start-line="210" selection-start-column="119" selection-end-line="210" selection-end-column="124" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#4;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28521#28525#0#HTML" expanded="true" />
-            <element signature="e#28528#28532#0#HTML" expanded="true" />
-            <element signature="e#28532#28536#0#HTML" expanded="true" />
-            <element signature="e#28625#28629#0#HTML" expanded="true" />
-            <element signature="e#28629#28633#0#HTML" expanded="true" />
-            <element signature="e#28637#28641#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="486">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/account/signup.html">
+    <entry file="file://$PROJECT_DIR$/profiles/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profiles/registration-step-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="50" column="98" selection-start-line="50" selection-start-column="98" selection-end-line="50" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <marker date="1489178395039" expanded="true" signature="1237:1578" ph="..." />
-          </folding>
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/panel/settings/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="46">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
