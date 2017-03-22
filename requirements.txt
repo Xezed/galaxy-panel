@@ -2,10 +2,15 @@ appdirs==1.4.2
 defusedxml==0.5.0
 Django==1.10.6
 django-allauth==0.31.0
+django-countries==4.2
+django-model-utils==2.6.1
 oauthlib==2.0.1
 packaging==16.8
+persisting-theory==0.2.1
 pyparsing==2.2.0
 python3-openid==3.1.0
 requests==2.13.0
 requests-oauthlib==0.8.0
 six==1.10.0
+swapper==1.0.0
+tqdm==4.11.2

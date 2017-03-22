@@ -1,0 +1,203 @@
+{% extends 'profiles/base.html' %}
+
+{% block styles %}
+
+    {% include 'profiles/_css_registration.html' %}
+
+{% endblock %}
+
+
+{% block content %}
+
+    <section class="content-header">
+        <h1>
+            Завершение регистрации
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Рабочий стол</a></li>
+            <li class="active">Данные для оформления договора</li>
+        </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+        <!-- SELECT2 EXAMPLE -->
+        <div class="box box-default">
+            <div class="box-header with-border">
+                <h3 class="box-title">Данные для оформления договора</h3>
+
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-remove"></i></button>
+                </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body" style="display: block;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <form method="post">{% csrf_token %}
+                            {{ form.non_field_errors }}
+                        <div class="form-group">
+                            {{ form.name.errors }}
+                            <label>Название организации</label>
+                            <div class="sui-tip"> Например Иванов А.А</div>
+                            <input name='name' type="text" class="form-control" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            {{ form.incumbent.errors }}
+                            <label>Должность лица, уполномоченного подписывать договор
+                                <div class="sui-tip">В родительном падеже, например, «Генерального директора»</div>
+                            </label>
+                            <input name="incumbent" type="text" class="form-control" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            {{ form.initials.errors }}
+                            <label>ФИО лица, уполномоченного подписывать договор
+                                <div class="sui-tip">В родительном падеже, например, «Петрова Ивана Сергеевича»</div>
+                            </label>
+                            <input type="text" name="initials" class="form-control" placeholder="">
+                        </div>
+
+
+                        <div class="form-group">
+                            {{ form.foundation.errors }}
+                            <label>На основании чего лицо уполномочено подписывать договор
+                                <div class="sui-tip">в родительном падеже, например «Доверенности № 1 от 25.01.2017»</div>
+                            </label>
+                            <input type="text" name="foundation" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.inn.errors }}
+                            <label>ИНН</label>
+                            <input type="text" name="inn" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.kpp.errors }}
+                            <label>ОГРН</label>
+                            <input name="kpp" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <h3 class="box-title">Банковские реквизиты</h3>
+
+                        <div class="form-group">
+                            {{ form.bik.errors }}
+                            <label>БИК</label>
+                            <input name="bik" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.bank.errors }}
+                            <label>Банк</label>
+                            <input name="bank" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.kor_acc.errors }}
+                            <label>Корреспондентский счёт </label>
+                            <input name="kor_acc" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.acc.errors }}
+                            <label>Расчетный счет</label>
+                            <input name="acc" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.address.errors }}
+                            <label>Адреса</label>
+                            <input name="address" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.legal_addr.errors }}
+                            <label>Юридический адрес</label>
+                            <input name="legal_addr" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.physic_addr.errors }}
+                            <label>Фактический адрес</label>
+                            <input name="physic_addr" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <h3 class="box-title">Контактная информация</h3>
+
+                        <div class="form-group">
+                            {{ form.contact_entity.errors }}
+                            <label>Контактное лицо</label>
+                            <input name="contact_entity" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.work_phone.errors }}
+                            <label>Рабочий телефон</label>
+                            <input name="work_phone" type="text" class="form-control" placeholder="">
+                        </div>
+
+
+                        <div class="input-group">
+                            {{ form.phone.errors }}
+                            <label>Телефон <br/>
+                                <div class="sui-tip">Вам будет отправлено смс с кодом. Зарегистрировать новый аккаунт с данным номером будет невозможно.</div>
+                            </label>
+
+                        </div>
+
+                        <div class="input-group">
+                            <span class="input-group-addon">+7</span>
+                            <input name="phone" type="text" class="form-control" data-inputmask="&quot;mask&quot;: &quot;(999) 999-9999&quot;" data-mask="">
+
+                        </div>
+                        <div class="input-group">
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" required>
+                                    Подтверждаю, что указанный телефонный номер зарегистрирован на мое имя/мной получено разрешение на его использование
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="btn-group">
+
+
+
+                            <a href="{% url 'reg_cancel' %}" style="" class="btn btn-primary btn-block">Назад</a>
+                        </div>
+                        <div class="btn-group">
+                            <button type="submit" class="btn btn-primary btn-block">Подтвердить данные</button>
+
+                        </div>
+
+
+                        <!-- /.form-group -->
+                            </form>
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer" style="display: block;">
+                Возникли проблемы с активацией? <a href="/tickets/create?subject=%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B%20%D1%81%20%D0%BF%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B0">Cоздайте тикет</a>.
+            </div>
+        </div>
+        <!-- /.box -->
+
+
+
+    </section>
+    <!-- /.content -->
+
+{% endblock %}
+
+
+{% block scripts %}
+
+    {% include 'profiles/_js_registration.html' %}
+
+{% endblock %}
