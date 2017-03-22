@@ -133,12 +133,14 @@ desired effect
 
 <!-- jQuery 2.2.3 -->
 <script src="{% static 'plugins/panel/jQuery/jquery-2.2.3.min.js' %}"></script>
+
+
+
+{% block scripts %}{% endblock %}
 <!-- Bootstrap 3.3.6 -->
 <script src="{% static 'js/profiles/bootstrap.min.js' %}"></script>
 <!-- AdminLTE App -->
 <script src="{% static 'js/profiles/app.min.js' %}"></script>
-
-{% block scripts %}{% endblock %}
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
      user experience. Slimscroll is required when using the
