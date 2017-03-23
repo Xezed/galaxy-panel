@@ -3,6 +3,7 @@ from django.contrib.contenttypes.fields import GenericRelation, GenericForeignKe
 from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django_countries.fields import CountryField
+from django.utils.translation import ugettext_lazy as _
 
 
 class Profile(models.Model):
@@ -13,10 +14,10 @@ class Profile(models.Model):
     Entrepreneur_ = 'E'
     Government_Department = 'G'
     ENTITY_TYPES = (
-        (Personal_Entity, 'Физическое лицо'),
-        (Legal_Entity, 'Юридическое лицо'),
-        (Entrepreneur_, 'Индивидуальный предпринематель'),
-        (Government_Department, 'Государственное учреждение'),
+        (Personal_Entity, _('Физическое лицо')),
+        (Legal_Entity, _('Юридическое лицо')),
+        (Entrepreneur_, _('Индивидуальный предпринематель')),
+        (Government_Department, _('Государственное учреждение')),
     )
     entity_type = models.CharField(max_length=1, choices=ENTITY_TYPES, default=Personal_Entity)
     registered = models.BooleanField(default=False)

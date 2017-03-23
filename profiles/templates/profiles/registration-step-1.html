@@ -1,5 +1,6 @@
 {% extends 'profiles/base.html' %}
 {% load staticfiles %}
+{% load i18n %}
 
 {% block styles %}
 
@@ -12,11 +13,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Завершение регистрации
+            {% trans 'Завершение регистрации' %}
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Рабочий стол</a></li>
-            <li class="active">Страна и тип аккаунта</li>
+            <li><a href="#"><i class="fa fa-dashboard"></i>{% trans ' Рабочий стол' %}</a></li>
+            <li class="active">{% trans 'Страна и тип аккаунта' %}</li>
         </ol>
     </section>
 
@@ -26,7 +27,7 @@
         <!-- SELECT2 EXAMPLE -->
         <div class="box box-default">
             <div class="box-header with-border">
-                <h3 class="box-title">Страна и тип аккаунта</h3>
+                <h3 class="box-title">{% trans 'Страна и тип аккаунта' %}</h3>
 
                 <div class="box-tools pull-right">
                     <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -41,7 +42,7 @@
                             {{ form.non_field_errors }}
                             <div class="form-group">
                                 {{ form.country.errors }}
-                                <label>Выберите страну</label>
+                                <label>{% trans 'Выберите страну' %}</label>
                                 {{ form.country }}
                             </div>
                             <!-- /.form-group -->
@@ -61,14 +62,14 @@
                                 <div class="checkbox">
                                     <label>
                                         <input id='agreement' type="checkbox" required>
-                                        Я ознакомился(-ась) и согласен(-на) с условиями договора и лично даю согласие на обработку моих персональных данных1
+                                        {% trans 'Я ознакомился(-ась) и согласен(-на) с условиями договора и лично даю согласие на обработку моих персональных данных' %}
                                     </label>
                                 </div>
 
 
                             </div>
                             <div class="btn-group">
-                                <button type="submit" class="btn btn-primary">Заполнить анкету клиента</button>
+                                <button type="submit" class="btn btn-primary">{% trans 'Заполнить анкету клиента' %}</button>
                             </div>
                             <!-- /.form-group -->
                         </form>
@@ -79,7 +80,9 @@
             </div>
             <!-- /.box-body -->
             <div class="box-footer" style="display: block;">
-                Возникли проблемы с активацией? <a href="/tickets/create?subject=%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B%20%D1%81%20%D0%BF%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B0">Cоздайте тикет</a>.
+                {% blocktrans %}
+                Возникли проблемы с активацией? <a href="">Cоздайте тикет</a>.
+                {% endblocktrans %}
             </div>
         </div>
         <!-- /.box -->

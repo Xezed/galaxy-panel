@@ -8,7 +8,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Starter</title>
+    <title>{% block head_title %}AdminLTE 2 | Starter{% endblock %}</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -66,57 +66,7 @@ desired effect
     <div class="content-wrapper">
         {% block content %}
 
-            <!-- Content Header (Page header) -->
 
-
-
-            <section class="content-header">
-                <h1>
-                    Панель управления
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-dashboard"></i> Главная</a></li>
-                    <li class="active">Рабочий стол</li>
-                </ol>
-            </section>
-
-
-            <!-- Main content -->
-            <section class="content">
-
-                <div class="alert alert-warning alert-dismissible">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                    <h4><i class="icon fa fa-ban"></i> Внимание!!</h4>
-
-
-                    <p>Для заказа и управления услугами необходимо <a href="registration-step-1.html">завершить регистрацию</p>
-                </div>
-
-
-
-                <div class="col-md-3">
-                    <div class="box box-warning">
-                        <div class="box-header with-border">
-                            <h3 class="box-title"><a href="service/hosting.html">Хостинг сайтов</a></h3>
-
-                            <div class="box-tools pull-right">
-                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                                </button>
-                            </div>
-                            <!-- /.box-tools -->
-                        </div>
-                        <!-- /.box-header -->
-                        <div class="box-body" style="display: block;">
-                            Cамый простой вид хостинга, подходящий для небольших проектов
-                        </div>
-                        <!-- /.box-body -->
-                    </div>
-                    <!-- /.box -->
-                </div>
-                <!-- Your Page Content Here -->
-
-            </section>
-            <!-- /.content -->
 
         {% endblock content %}
     </div>

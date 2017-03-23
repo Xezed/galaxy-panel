@@ -1,18 +1,24 @@
 {% extends 'profiles/base.html' %}
+{% load i18n %}
 
 {% block content %}
 
+    {% if not user.profile %}
     <section class="content">
 
         <div class="alert alert-warning alert-dismissible">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-            <h4><i class="icon fa fa-ban"></i> Внимание!!</h4>
+            <h4><i class="icon fa fa-ban"></i>{% trans ' Внимание!!' %}</h4>
 
+        {% url 'reg_first_step' as reg %}
 
-            <p>Для заказа и управления услугами необходимо <a href="{% url 'reg_first_step' %}">завершить регистрацию</p>
+        {% blocktrans %}
+            <p>Для заказа и управления услугами необходимо <a href="{{ reg }}">завершить регистрацию</a></p>
+        {% endblocktrans %}
         </div>
 
 
     </section>
+    {% endif %}
 
 {% endblock content %}

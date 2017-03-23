@@ -1,4 +1,5 @@
 {% extends 'profiles/base.html' %}
+{% load i18n %}
 
 {% block styles %}
 
@@ -9,14 +10,13 @@
 
 {% block content %}
 
-    <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Завершение регистрации
+            {% trans 'Завершение регистрации' %}
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-            <li class="active">Here</li>
+            <li><a href="#"><i class="fa fa-dashboard"></i>{% trans ' Рабочий стол' %}</a></li>
+            <li class="active">{% trans 'Страна и тип аккаунта' %}</li>
         </ol>
     </section>
 
@@ -26,7 +26,7 @@
         <!-- SELECT2 EXAMPLE -->
         <div class="box box-default">
             <div class="box-header with-border">
-                <h3 class="box-title">Ввод персональных данных</h3>
+                <h3 class="box-title">{% trans 'Данные для оформления договора' %}</h3>
 
                 <div class="box-tools pull-right">
                     <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -39,56 +39,143 @@
                     <div class="col-md-6">
                         <form method="post">{% csrf_token %}
                             {{ form.non_field_errors }}
-                            <div class="form-group">
-                                {{ form.last_name.errors }}
-                                {{ form.last_name.label_tag }}
-                                <input type="text" name="last_name" class="form-control" placeholder="Иванов ...">
+                        <div class="form-group">
+                            {{ form.name.errors }}
+                            <label>{% trans 'Название организации' %}</label>
+                            <input name='name' type="text" class="form-control" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            {{ form.incumbent.errors }}
+                            <label>{% trans 'Должность лица, уполномоченного подписывать договор' %}
+                                <div class="sui-tip">{% trans 'В родительном падеже, например, «Генерального директора»' %}</div>
+                            </label>
+                            <input name="incumbent" type="text" class="form-control" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            {{ form.initials.errors }}
+                            <label>{% trans 'В родительном падеже, например, «Генерального директора»' %}
+                                <div class="sui-tip">{% trans 'В родительном падеже, например, «Петрова Ивана Сергеевича»' %}</div>
+                            </label>
+                            <input type="text" name="initials" class="form-control" placeholder="">
+                        </div>
+
+
+                        <div class="form-group">
+                            {{ form.foundation.errors }}
+                            <label>{% trans 'На основании чего лицо уполномочено подписывать договор' %}
+                                <div class="sui-tip">{% trans 'в родительном падеже, например «Доверенности № 1 от 25.01.2017»' %}</div>
+                            </label>
+                            <input type="text" name="foundation" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.inn.errors }}
+                            <label>{% trans 'ИНН' %}</label>
+                            <input type="text" name="inn" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.kpp.errors }}
+                            <label>{% trans 'ОГРН' %}</label>
+                            <input name="kpp" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <h3 class="box-title">{% trans 'Банковские реквизиты' %}</h3>
+
+                        <div class="form-group">
+                            {{ form.bik.errors }}
+                            <label>{% trans 'БИК' %}</label>
+                            <input name="bik" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.bank.errors }}
+                            <label>{% trans 'Банк' %}</label>
+                            <input name="bank" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.kor_acc.errors }}
+                            <label>{% trans 'Корреспондентский счёт ' %}</label>
+                            <input name="kor_acc" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.acc.errors }}
+                            <label>{% trans 'Расчетный счет' %}</label>
+                            <input name="acc" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.address.errors }}
+                            <label>{% trans 'Адреса' %}</label>
+                            <input name="address" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.legal_addr.errors }}
+                            <label>{% trans 'Юридический адрес' %}</label>
+                            <input name="legal_addr" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.physic_addr.errors }}
+                            <label>{% trans 'Фактический адрес' %}</label>
+                            <input name="physic_addr" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <h3 class="box-title">{% trans 'Контактная информация' %}</h3>
+
+                        <div class="form-group">
+                            {{ form.contact_entity.errors }}
+                            <label>{% trans 'Контактное лицо' %}</label>
+                            <input name="contact_entity" type="text" class="form-control" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.work_phone.errors }}
+                            <label>{% trans 'Рабочий телефон' %}</label>
+                            <input name="work_phone" type="text" class="form-control" placeholder="">
+                        </div>
+
+
+                        <div class="input-group">
+                            {{ form.phone.errors }}
+                            <label>{% trans 'Телефон ' %}<br/>
+                                <div class="sui-tip">{% trans 'Вам будет отправлено смс с кодом. Зарегистрировать новый аккаунт с данным номером будет невозможно.' %}</div>
+                            </label>
+
+                        </div>
+
+                        <div class="input-group">
+                            <span class="input-group-addon">+7</span>
+                            <input name="phone" type="text" class="form-control" data-inputmask="&quot;mask&quot;: &quot;(999) 999-9999&quot;" data-mask="">
+
+                        </div>
+                        <div class="input-group">
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" required>
+                                    {% trans 'Подтверждаю, что указанный телефонный номер зарегистрирован на мое имя/мной получено разрешение на его использование' %}
+                                </label>
                             </div>
-                            <div class="form-group">
-                                {{ form.first_name.errors }}
-                                {{ form.first_name.label_tag }}
-                                <input type="text" name="first_name" class="form-control" placeholder="Иван ...">
-                            </div>
-                            <div class="form-group">
-                                {{ form.sur_name.errors }}
-                                {{ form.sur_name.label_tag }}
-                                <input type="text" name="sur_name" class="form-control" placeholder="Иванович ...">
-                            </div>
+                        </div>
 
-
-                            <div class="input-group">
-                                {{ form.phone_number.errors }}
-                                {{ form.phone_number.label_tag }}
-
-                            </div>
-
-                            <div class="input-group">
-                                <span class="input-group-addon">+7</span>
-                                <input type="text" name="phone_number" class="form-control" data-inputmask="&quot;mask&quot;: &quot;(999) 999-9999&quot;" data-mask="">
-
-                            </div>
-                            <div class="input-group">
-
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox">
-                                        Подтверждаю, что указанный телефонный номер зарегистрирован на мое имя/мной получено разрешение на его использование
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="btn-group">
+                        <div class="btn-group">
 
 
 
-                                <a href="{% url 'reg_cancel' %}" style="" class="btn btn-primary btn-block">Назад</a>
-                            </div>
-                            <div class="btn-group">
-                                <button type="submit" class="btn btn-primary btn-block">Подтвердить данные</button>
+                            <a href="{% url 'reg_cancel' %}" style="" class="btn btn-primary btn-block">{% trans 'Назад' %}</a>
+                        </div>
+                        <div class="btn-group">
+                            <button type="submit" class="btn btn-primary btn-block">{% trans 'Подтвердить данные' %}</button>
 
-                            </div>
-                        </form>
+                        </div>
+
+
                         <!-- /.form-group -->
+                            </form>
                     </div>
                     <!-- /.col -->
                 </div>
@@ -96,7 +183,9 @@
             </div>
             <!-- /.box-body -->
             <div class="box-footer" style="display: block;">
-                Возникли проблемы с активацией? <a href="/tickets/create?subject=%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B%20%D1%81%20%D0%BF%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B0">Cоздайте тикет</a>.
+                {% blocktrans %}
+                Возникли проблемы с активацией? <a href="">Cоздайте тикет</a>.
+                {% endblocktrans %}
             </div>
         </div>
         <!-- /.box -->
@@ -104,6 +193,7 @@
 
 
     </section>
+    <!-- /.content -->
 
 {% endblock %}
 

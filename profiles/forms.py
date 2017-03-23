@@ -1,5 +1,6 @@
 from django import forms
 from django.utils.safestring import mark_safe
+from django.utils.translation import ugettext_lazy as _
 from django_countries.widgets import CountrySelectWidget
 
 from profiles.models import Profile, PersonalEntity, LegalEntity, Entrepreneur, GovernmentDepartment
@@ -24,10 +25,10 @@ class PersonalEntityForm(forms.ModelForm):
         model = PersonalEntity
         fields = ['first_name', 'last_name', 'sur_name', 'phone_number']
         labels = {
-            'first_name': ('Имя'),
-            'last_name': ('Фамилия'),
-            'sur_name': ('Отчество (необязательно)'),
-            'phone_number': mark_safe('Телефон <br/> Вам будет отправлено смс с кодом.  Зарегистрировать новый аккаунт с данным номером будет невозможно.'),
+            'first_name': _('Имя'),
+            'last_name': _('Фамилия'),
+            'sur_name': _('Отчество (необязательно)'),
+            'phone_number': mark_safe(_('Телефон <br/> Вам будет отправлено смс с кодом.  Зарегистрировать новый аккаунт с данным номером будет невозможно.')),
         }
 
 
