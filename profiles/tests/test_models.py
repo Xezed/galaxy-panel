@@ -8,7 +8,7 @@ User = get_user_model()
 pytestmark = pytest.mark.django_db
 
 
-class TestPost:
+class TestProfile:
     def test_init(self):
         user = User.objects.create(email='Vasya@crab.com')
         obj = mixer.blend('profiles.Profile', user=user)

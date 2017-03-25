@@ -5,7 +5,7 @@ from profiles.forms import PersonalEntityForm
 pytestmark = pytest.mark.django_db
 
 
-class TestPost:
+class TestPersonalEntityForm:
     def test_init(self):
         form_data = {'first_name': 'alex',
                      'last_name': '',

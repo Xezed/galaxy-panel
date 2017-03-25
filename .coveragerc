@@ -9,4 +9,5 @@ omit =
  *urls.py,
  *wsgi.py,
  manage.py,
+ panel/*,
  env/*
