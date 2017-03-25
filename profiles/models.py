@@ -28,7 +28,7 @@ class Profile(models.Model):
     # content_object = GenericForeignKey('content_type', 'object_id')
 
     def __str__(self):
-        return self.user
+        return str(self.user)
 
 
 class PersonalEntity(models.Model):
