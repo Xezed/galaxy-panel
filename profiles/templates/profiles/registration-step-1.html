@@ -48,7 +48,7 @@
                             <!-- /.form-group -->
                             {% for radio in form.entity_type %}
                                 <div class="form-group">
-                                {{ radio.errors }}
+                                    {{ radio.errors }}
                                     <label for="{{ radio.id_for_label }}">
                                         <div class="iradio_flat-green" aria-checked="true" aria-disabled="false" style="position: relative;">
                                             {{ radio.tag }}<ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
@@ -81,7 +81,7 @@
             <!-- /.box-body -->
             <div class="box-footer" style="display: block;">
                 {% blocktrans %}
-                Возникли проблемы с активацией? <a href="">Cоздайте тикет</a>.
+                    Возникли проблемы с активацией? <a href="">Cоздайте тикет</a>.
                 {% endblocktrans %}
             </div>
         </div>
@@ -111,6 +111,12 @@
             };
             check();
             $('#agreement').on('click', check)
+            function sort(a, b) {
+                return (a.innerHTML > b.innerHTML) ? 1 : -1;
+            };
+            $('#id_country option').sort(sort).appendTo('#id_country');
+            $('#id_country').val('RU');
+
         });
     </script>
 {% endblock %}
