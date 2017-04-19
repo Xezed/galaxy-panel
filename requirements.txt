@@ -1,9 +1,9 @@
-appdirs==1.4.2
-coverage==4.3.4
-defusedxml==0.5.0
-Django==1.10.6
-django-allauth==0.31.0
-django-countries==4.2
+appdirs
+coverage
+defusedxml
+Django
+django-allauth
+django-countries
 django-model-utils==2.6.1
 Faker==0.7.3
 mixer==5.6.6
